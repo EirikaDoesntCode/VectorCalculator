@@ -28,6 +28,11 @@ namespace VectorCalculator
             double value = _xValue*_xValue + _yValue*_yValue;
             return Math.Sqrt(value);
         }
+
+        public override string ToString()
+        {
+            return $"2D Vector ({_xValue}, {_yValue})";
+        }
     }
 
     internal class Vector3D : VectorBase
@@ -48,6 +53,11 @@ namespace VectorCalculator
         {
             double value = _xValue*_xValue + _yValue*_yValue + _zValue*_zValue;
             return Math.Sqrt(value);
+        }
+
+        public override string ToString()
+        {
+            return $"3D Vector ({_xValue}, {_yValue}, {_zValue})";
         }
     }
 }
