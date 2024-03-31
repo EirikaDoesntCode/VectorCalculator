@@ -1,7 +1,7 @@
 # VectorCalculator
 
-## Calculations
-
+## To Do
+Calculate:
 - Magnitude
 - Dot product
 - Angle between vectors
