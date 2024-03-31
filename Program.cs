@@ -1,4 +1,2 @@
-﻿/*
-Console App to do my vector calculations for me, I hate maths, so instead, im going to do more work
-*/
-
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
